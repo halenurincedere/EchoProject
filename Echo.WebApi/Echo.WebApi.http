@@ -1,0 +1,6 @@
+@Echo.WebApi_HostAddress = http://localhost:5104
+
+GET {{Echo.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
