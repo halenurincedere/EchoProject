@@ -40,8 +40,7 @@ public class AuthController : ControllerBase
             Password = request.Password,
             FirstName = request.FirstName,
             LastName = request.LastName,
-            BirthDate = request.BirthDate,
-            UserRole = UserRole.User // 👥 Default role assigned
+            BirthDate = request.BirthDate
         };
 
         var result = await _userService.AddUserAsync(addUserDto);

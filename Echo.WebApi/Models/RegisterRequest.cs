@@ -21,6 +21,4 @@ public class RegisterRequest
 
     [Required(ErrorMessage = "Birth date is required.")]
     public DateTime BirthDate { get; set; }
-
-    public UserRole UserRole { get; set; } = UserRole.User;
 }

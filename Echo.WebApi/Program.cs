@@ -126,6 +126,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseGlobalException();
 app.UseHttpsRedirection();
 
 app.UseMaintenanceMode(); 
